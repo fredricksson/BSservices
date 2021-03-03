@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="329.0" prefWidth="610.0" style="-fx-border-color: back;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsservices.co.Controller.LoginController">
+   <children>
+      <AnchorPane layoutY="-72.0" prefHeight="122.0" prefWidth="610.0" style="-fx-background-color: #00cec9;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="566.0" layoutY="79.0" onMouseClicked="#sair" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/icons8-cancel-50.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="215.0" layoutY="95.0" prefHeight="21.0" prefWidth="175.0" text="SALÃO DE BELEZA" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#32b2ae" />
+                        <Stop color="#3258b2" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+      <PasswordField id="password" alignment="CENTER" focusTraversable="false" layoutX="159.0" layoutY="140.0" onAction="#entrar" prefHeight="34.0" prefWidth="261.0" promptText="* * * * * *" stylesheets="@../css/login.css" />
+      <Button layoutX="217.0" layoutY="199.0" mnemonicParsing="false" onAction="#entrar" prefHeight="34.0" prefWidth="145.0" style="-fx-background-color: #00cec9;" styleClass="botao" stylesheets="@../css/login.css" text="Entrar">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Hyperlink layoutX="207.0" layoutY="273.0" text="Desenvolvido por @MonTech" />
+      <Label layoutX="245.0" layoutY="92.0" prefHeight="17.0" prefWidth="175.0" text="BRUNA SERVICES" textAlignment="CENTER">
+         <textFill>
+            <RadialGradient centerX="0.35" centerY="0.5142857142857143" radius="0.5">
+               <stops>
+                  <Stop color="#00ffe5" />
+                  <Stop color="#172a2c" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Bodoni MT" size="13.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

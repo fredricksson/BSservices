@@ -1,0 +1,127 @@
+.botoes{
+   -fx-color: #fff;
+    -fx-background-color:#00cec9 ;
+    -fx-font-family: "Calisto MT";
+    -fx-font-size:20px; 
+}
+.textField{
+     -fx-border-width:  0 0 3 0;
+    -fx-border-color: #00cec9;
+   -fx-background-color: transparent;
+}
+.botaogravare{
+    -fx-background-color:#00cec9;
+    -fx-text-fill: #fff;
+}
+
+.botaogravar{
+    -fx-border-width: 1;
+    -fx-border-radius: 20;
+    -fx-border-color: #00cec9;
+}
+.botaogravar:hover{
+    
+    -fx-background-color:#00cec9;
+    -fx-text-fill: #fff;
+}
+.botaocancelar:hover{
+    -fx-background-color:red;
+    -fx-text-fill: #fff;
+}
+
+.botao{
+    -fx-border-width:  0 0 1 0;
+    -fx-border-color: #333;
+    -fx-background-color:  #00cec9;
+}
+#botaocli{
+      -fx-background-image: url("../icons/icons8-people-50.png");
+  -fx-background-repeat: no-repeat;
+}
+
+#botaocli2{
+      -fx-background-image: url("../icons/icons8-collaborating-in-circle-50.png");
+  -fx-background-repeat: no-repeat;
+}
+#botaocli3{
+      -fx-background-image: url("../icons/icons8-meeting-room-50.png");
+  -fx-background-repeat: no-repeat;
+}
+
+#botaocli2:hover{
+      -fx-background-image: url("../icons/icons8-collaborating-in-circle-50-whitee.png");
+  -fx-background-repeat: no-repeat;
+}
+#botaocli3:hover{
+      -fx-background-image: url("../icons/icons8-meeting-room-50-white.png");
+  -fx-background-repeat: no-repeat;
+}
+
+.botao{
+    -fx-border-width:  0 0 1 0;
+    -fx-border-color: #333;
+    -fx-background-color:  #00cec9;
+}
+.botao:hover{
+  /*  -fx-background-color:  #55efc4;*/
+  -fx-text-fill: #fff; 
+  -fx-border-width: 0 0 2 0;
+  -fx-border-color: #fff;
+ 
+  
+  
+}
+#botaocli:hover{
+  /*  -fx-background-color:  #55efc4;*/
+ 
+ 
+ -fx-background-image: url("../icons/icons8-people-50-white.png");
+  -fx-background-repeat: no-repeat;
+  
+  
+}
+
+
+#tela{
+    
+    -fx-background-image: url(../icons/body-background.png);
+    
+}
+.table-row-cell:selected {
+
+   /* -fx-background-color:  #55efc4;
+    -fx-table-cell-border-color: #55efc4;*/
+
+}
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Calisto MT";
+    -fx-font-weight: 500;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+  -fx-border-width: 0px;
+  -fx-text-fill:  #333;
+}
+
+.table-column{
+    
+    -fx-font-size: 20px;
+}
+.table-view .column-header, .table-view .filler {
+   /* -fx-background-color:  #00cec9;*/
+   -fx-size: 55;
+    -fx-border-width: 0 0.2 0.2 0; 
+     
+ -fx-border-color: black;
+  
+   
+  
+}
+#pes{
+    
+    -fx-background-image: url(../icons/pes.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-size: 25px;
+    
+}

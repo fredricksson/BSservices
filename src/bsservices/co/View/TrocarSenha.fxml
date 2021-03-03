@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="456.0" prefWidth="589.0" style="-fx-border-color: back;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsservices.co.Controller.LoginController">
+   <children>
+      <AnchorPane layoutY="-72.0" prefHeight="122.0" prefWidth="610.0" style="-fx-background-color: #00cec9;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutX="215.0" layoutY="95.0" prefHeight="21.0" prefWidth="175.0" text="TROCAR SENHA" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#32b2ae" />
+                        <Stop color="#3258b2" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+      <PasswordField id="password" alignment="CENTER" focusTraversable="false" layoutX="207.0" layoutY="110.0" onAction="#entrar" prefHeight="34.0" prefWidth="261.0" promptText="* * * * * *" stylesheets="@../css/login.css" />
+      <Button layoutX="209.0" layoutY="298.0" mnemonicParsing="false" onAction="#entrar" prefHeight="34.0" prefWidth="261.0" style="-fx-background-color: #00cec9;" styleClass="botao" stylesheets="@../css/login.css" text="MUDAR">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Hyperlink layoutX="212.0" layoutY="393.0" text="Desenvolvido por @MonTech" />
+      <PasswordField id="password" alignment="CENTER" focusTraversable="false" layoutX="207.0" layoutY="174.0" onAction="#entrar" prefHeight="34.0" prefWidth="261.0" promptText="* * * * * *" stylesheets="@../css/login.css" />
+      <PasswordField id="password" alignment="CENTER" focusTraversable="false" layoutX="207.0" layoutY="232.0" onAction="#entrar" prefHeight="34.0" prefWidth="261.0" promptText="* * * * * *" stylesheets="@../css/login.css" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="238.0" prefHeight="21.0" prefWidth="175.0" text="CONFIRMAR SENHA" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#32b2ae" />
+                  <Stop color="#3258b2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="-7.0" layoutY="181.0" prefHeight="21.0" prefWidth="175.0" text="NOVA SENHA" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#32b2ae" />
+                  <Stop color="#3258b2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutY="116.0" prefHeight="21.0" prefWidth="175.0" text="SENHA ACTUAL" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#32b2ae" />
+                  <Stop color="#3258b2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

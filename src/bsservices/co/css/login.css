@@ -1,0 +1,12 @@
+#password{
+    -fx-background-image: url(../icons/icons8-lock-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+    -fx-background-size: 25px;
+    
+}
+
+.botao:hover{
+    -fx-border-color: #437bcf;
+    -fx-text-fill: #fff;
+}
